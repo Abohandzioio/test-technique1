@@ -1,0 +1,24 @@
+{
+  "name": "muetre-api",
+  "version": "1.0.0",
+  "description": "API Keystone.js pour le test technique Mü être",
+  "private": true,
+  "scripts": {
+    "dev": "keystone dev",
+    "start": "keystone start",
+    "build": "keystone build",
+    "postinstall": "keystone postinstall"
+  },
+  "dependencies": {
+    "@keystone-6/core": "^5.7.0",
+    "@keystone-6/auth": "^7.0.3",
+    "@keystone-6/fields-document": "^8.0.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
