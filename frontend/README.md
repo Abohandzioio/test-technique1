@@ -140,23 +140,23 @@ Vous êtes libre dans votre approche design, mais voici quelques suggestions :
 
 Avant de soumettre, vérifiez que :
 
-- [ ] L'application se lance sans erreur (`npm run dev`)
-- [ ] Les 3 pages principales sont fonctionnelles
-- [ ] Les données sont correctement récupérées depuis l'API
-- [ ] Les réponses sont bien enregistrées dans la base
-- [ ] L'interface est responsive (mobile + desktop)
-- [ ] Le code est propre et commenté si nécessaire
-- [ ] Les états de chargement sont gérés
-- [ ] Les erreurs sont affichées à l'utilisateur
+- [x] L'application se lance sans erreur (`npm run dev`)
+- [x] Les 3 pages principales sont fonctionnelles
+- [x] Les données sont correctement récupérées depuis l'API
+- [x] Les réponses sont bien enregistrées dans la base
+- [x] L'interface est responsive (mobile + desktop)
+- [x] Le code est propre et commenté si nécessaire
+- [x] Les états de chargement sont gérés
+- [x] Les erreurs sont affichées à l'utilisateur
 
 ## 🎁 Bonus (optionnels)
 
-- [ ] Animations fluides (transitions, hover effects)
-- [ ] Validation des formulaires
-- [ ] Graphiques pour les résultats (Chart.js, Recharts)
-- [ ] Tests unitaires
-- [ ] Mode sombre
-- [ ] Persistance locale (localStorage)
+- [x] Animations fluides (transitions, hover effects)
+- [x] Validation des formulaires
+- [x] Graphiques pour les résultats (Custom bars)
+- [ ] Tests unitaires (Jest, RTL - Configuré)
+- [x] Mode sombre
+- [x] Persistance locale (localStorage)
 - [ ] Progressive Web App (PWA)
 
 ## 📚 Ressources utiles

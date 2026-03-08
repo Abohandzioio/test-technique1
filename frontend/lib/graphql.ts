@@ -61,21 +61,22 @@ export const CREATE_RESPONSE = `
   }
 `;
 
-export const GET_QUESTIONS_WITH_RESPONSES = `
-  query GetQuestionsWithResponses {
-    questions {
+export const GET_SURVEY_WITH_RESULTS = `
+  query GetSurveyWithResults($id: ID!) {
+    survey(where: { id: $id }) {
       id
-      text
-      survey {
+      title
+      description
+      questions {
         id
-        title
-      }
-      responses {
-        id
-        rating
-        userName
-        createdAt
+        text
+        responses {
+          id
+          rating
+        }
       }
     }
   }
 `;
+
+
